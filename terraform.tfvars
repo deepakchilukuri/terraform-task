@@ -1,0 +1,10 @@
+region              = "ap-south-1"
+project             = "deepak"
+vpc_cidr            = "10.0.0.0/16"
+public_subnet_cidr  = "10.0.1.0/24"
+az                  = "ap-south-1a"
+instance_type       = "t3.micro"
+ami_id              = "ami-03695d52f0d883f65"   # or your preferred
+mysql_root_password = "root123"
+mysql_database      = "mydb"
+allowed_ip_ranges   = ["0.0.0.0/0"]
